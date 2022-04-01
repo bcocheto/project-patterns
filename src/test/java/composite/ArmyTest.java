@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class ArmyTest {
 
     @Test
-    void deveRetornarGrupamentoExercito() {
+    void shouldReturnGrouping() {
         Division division1 = new Division("division 1A");
         Brigade brigade1 = new Brigade("Brigade 01 of division 1", 900);
         division1.addGrouping(brigade1);
