@@ -17,7 +17,7 @@ class ColaboratorTest {
     }
 
     @Test
-    void deveRetornarBeneficiosEstagiario() {
+    void shoudReturnTreineeProfits() {
         AbstractFactory factory = new TraineeFactory();
         Colaborator colaborator = new Colaborator(factory);
         assertEquals("trainee profit", colaborator.printProfit());
